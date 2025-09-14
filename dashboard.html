@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics Dashboard - Learnova</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href="index.html">Learnova</a></div>
+      <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="doubts.html">Doubts</a></li>
+        <li><a href="labs.html">Labs</a></li>
+        <li><a href="dashboard.html" class="active">Dashboard</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Analytics Dashboard -->
+  <section class="section">
+    <h2>Analytics Dashboard</h2>
+    <p>Visualize student performance and progress with real-time insights.</p>
+
+    <div class="dashboard-grid">
+      <div class="chart-card">
+        <h3>Student Progress</h3>
+        <canvas id="progressChart"></canvas>
+      </div>
+
+      <div class="chart-card">
+        <h3>Engagement by Subject</h3>
+        <canvas id="engagementChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Learnova | Smart Education</p>
+  </footer>
+</body>
+</html>

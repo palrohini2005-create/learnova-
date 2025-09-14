@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doubt Exchange - Learnova</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href="index.html">Learnova</a></div>
+      <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="doubts.html" class="active">Doubts</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Doubt Exchange -->
+  <section class="section">
+    <h2>Doubt Exchange</h2>
+    <p>Ask questions, share answers, and learn collaboratively with your peers.</p>
+
+    <!-- Ask a Doubt -->
+    <form id="doubt-form" class="doubt-form">
+      <input type="text" id="doubt-input" placeholder="Type your doubt here..." required>
+      <button type="submit"><i class="fas fa-paper-plane"></i> Ask</button>
+    </form>
+
+    <!-- Doubts List -->
+    <div id="doubt-list" class="doubt-list">
+      <div class="doubt-card">
+        <p class="question"><strong>Q:</strong> What is AI-driven learning?</p>
+        <p class="answer"><strong>A:</strong> It means using AI to personalize education based on student needs.</p>
+        <button class="upvote"><i class="fas fa-thumbs-up"></i> <span>3</span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Learnova | Smart Education</p>
+  </footer>
+</body>
+</html>

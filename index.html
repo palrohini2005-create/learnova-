@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnova - Smart Education</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+  <nav class="navbar">
+    <div class="logo"><a href="index.html">Learnova</a></div>
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Revolutionizing Education with AI-Driven Learning</h1>
+    <p>Personalized, engaging, and interactive learning with Learnova.</p>
+    <a href="features.html" class="btn">Explore Features</a>
+  </section>
+  <!-- BENEFITS (paste below hero section in index.html) -->
+<section id="benefits" class="section reveal">
+  <h2>Why Learnova?</h2>
+  <div class="benefits-grid">
+    <article class="benefit-card">
+      <i class="fas fa-bullseye fa-2x"></i>
+      <h3>Personalized Learning</h3>
+      <p>Adaptive lessons and AI-driven recommendations tailor learning paths to each student.</p>
+    </article>
+
+    <article class="benefit-card">
+      <i class="fas fa-users fa-2x"></i>
+      <h3>Peer Collaboration</h3>
+      <p>Doubt-exchange and group features encourage peer-to-peer help and social learning.</p>
+    </article>
+
+    <article class="benefit-card">
+      <i class="fas fa-gamepad fa-2x"></i>
+      <h3>Engaging & Gamified</h3>
+      <p>Badges, leaderboards, and progress bars make learning motivating and fun.</p>
+    </article>
+
+    <article class="benefit-card">
+      <i class="fas fa-chart-line fa-2x"></i>
+      <h3>Real-time Tracking</h3>
+      <p>Educators get dashboards that show progress, weak topics, and engagement metrics.</p>
+    </article>
+  </div>
+</section>
+<!-- AUDIENCE (paste after benefits in index.html) -->
+<section id="audience" class="section reveal">
+  <h2>Who is Learnova for?</h2>
+  <div class="audience-grid">
+    <div class="audience-card">
+      <i class="fas fa-user-graduate fa-2x"></i>
+      <h4>Students</h4>
+      <p>Personalized lessons, doubt help, virtual labs for hands-on practice.</p>
+    </div>
+    <div class="audience-card">
+      <i class="fas fa-chalkboard-teacher fa-2x"></i>
+      <h4>Educators</h4>
+      <p>Real-time analytics and classroom tools to track and support learners.</p>
+    </div>
+    <div class="audience-card">
+      <i class="fas fa-user-friends fa-2x"></i>
+      <h4>Parents</h4>
+      <p>Progress reports and insights so parents can support learning at home.</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Short About -->
+  <section class="section">
+    <h2>What is Learnova?</h2>
+    <p>
+      Learnova is an AI-driven Smart Education Ecosystem that integrates
+      adaptive learning, intelligent assistance, and collaborative engagement.
+    </p>
+  </section>
+  <!-- CHATBOT DEMO (paste before footer) -->
+<button id="open-chat" class="btn" style="margin: 20px auto; display:block; max-width:200px;">Try Chatbot Demo</button>
+
+<div id="chat-modal" class="chat-modal" aria-hidden="true">
+  <div class="chat-panel">
+    <button id="close-chat" class="close-btn">&times;</button>
+    <h3>Learnova Chatbot (Demo)</h3>
+    <div class="chat-window" id="chat-window">
+      <div class="bot-msg">👋 Hi! I’m Learnova Bot. Ask me anything about the course.</div>
+    </div>
+
+    <form id="chat-form" class="chat-form">
+      <input id="chat-input" type="text" placeholder="Type a question..." required>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Learnova | Smart Education</p>
+  </footer>
+</body>
+</html>
